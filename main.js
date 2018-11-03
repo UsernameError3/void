@@ -1,7 +1,7 @@
 console.log('* main.js *')
 console.log('    - main process working -')
 console.log(' ')
-
+require('./js/renderer');
 // Modules to control application life and create native browser window
 const {app, BrowserWindow} = require('electron')
 
