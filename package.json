@@ -1,0 +1,21 @@
+{
+  "name": "void",
+  "version": "1.0.0",
+  "description": "An electron app for controlling social media.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/UsernameError3/void",
+  "keywords": [
+    "Electron",
+    "Void",
+    "Social",
+    "Media",
+  ],
+  "author": "UsernameError3",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}

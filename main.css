@@ -1,0 +1,92 @@
+body {
+  background: #000000;
+  border: 1px #00ff00;
+  color: #00ff00;
+  font: caption;
+}
+
+.green {
+  color: #00ff00;
+}
+
+
+/* NAV STYLES */
+
+#menu-icon svg:hover path, svg:hover polygon{
+  fill: #FF0000;
+  transition: all ease 0.15s;
+}
+
+.green-fill {
+  fill: #00FF00;
+}
+
+.green-stroke {
+  fill: none;
+  stroke: #00FF00;
+  stroke-miterlimit: 10;
+  stroke-width: 2px;
+}
+
+.menu-icon-size {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  padding-bottom: 25px;
+}
+
+.settings-icon {
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+
+/* NAV PANEL */
+
+.sidenav-container {
+  position: relative;
+  height: 100%;
+  text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #00FF00;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #00FF00;
+}
+
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidenav */
+  font-size: 28px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+}
